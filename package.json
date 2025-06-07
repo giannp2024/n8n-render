@@ -4,8 +4,7 @@
   "description": "n8n deployment on Render",
   "main": "index.js",
  "scripts": {
-  "start": "n8n start",
-  "postinstall": "npm audit fix --force"
+  "start": "n8n start"
   },
   "dependencies": {
     "n8n": "1.95.3",
