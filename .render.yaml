@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: n8n-automation
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: N8N_BASIC_AUTH_ACTIVE
+        value: "true"
+      - key: N8N_BASIC_AUTH_USER
+        value: "giannp."  # Cambia esto por tu usuario
+      - key: N8N_BASIC_AUTH_PASSWORD
+        value: "Paty2018!!!!"  # Cambia esto por tu contraseña segura
